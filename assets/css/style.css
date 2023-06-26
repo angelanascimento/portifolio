@@ -4,12 +4,13 @@ body {
 
 header {
     align-items: center;
-    background-color: rgb(1, 14, 25);
+    background-color: rgba(1, 14, 25);
+    box-shadow: 0px 0px 10px 0px rgba(6, 6, 6, 0.886);
     display: flex;
     height: 5rem;
     justify-content: space-around;
     position: relative;
-    box-shadow: 0px 0px 8px  rgb(6, 42, 73);
+    
 }
 .header-title {
     color: rgb(212, 164, 33);
@@ -36,19 +37,27 @@ header {
 }
 
 main {
-    background-image: linear-gradient(to bottom right, rgba(2, 19, 26), rgb(2, 28, 39), rgb(6, 38, 51));
+    background-color: rgb(11, 17, 24);
 }
 .home {
+    background-image: url(/assets/img/pexels-neo-2653362.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-div-main {
+    background-image: linear-gradient(to bottom right, rgb(11, 17, 24), rgba(2, 19, 26, 0.67), rgb(11, 17, 24));
+    background-size: cover;
     align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(6, 6, 6, 0.886);
     display: flex;
     height: calc(100vh - 5rem);
     justify-content: space-around;
-    margin: 0 auto;
-    width: 80%;
 }
 .home-div-photo {
     justify-content: space-between;
-    width: 45%;
+    margin-left: 10rem;
+    width: 50%;
 }
 .home-div-photo div {
     align-items: center;
@@ -67,12 +76,13 @@ main {
     width: 33rem;
 }
 .home-div-intro {
-    height: 38vh;
+    height: 40vh;
+    margin-right: 5rem;
     padding: 1rem;
-    width: 45%;
+    width: 50%;
 }
 .home-div-intro h1 {
-    color: #F4E2DE;
+    color: aliceblue;
     font-size: 4rem;;
     font-weight: 600;
     margin-bottom: 0.8rem;
@@ -80,9 +90,9 @@ main {
     text-align: start;
 }
 .home-div-intro h2 {
-    color: #ecd3ce;
+    color: #bbbaba;
     font-size: 1.6rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 2rem;
     padding: 0.2rem;
     text-align: start;
@@ -90,30 +100,35 @@ main {
 .home-div-intro p {
     color: aliceblue;
     font-size: 1.2rem;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 200;
     margin-bottom: 3.5rem;
     text-align: start;
     padding: 0.2rem;
+    width: 36rem;
+}
+.div-social-media {
+    align-items: center;
+    width: 36rem;
 }
 .home-div-intro ul {
     align-items: center;
     display: flex;
-    justify-content: space-around;
-    /*margin-right: 0;
-    margin-left: auto;*/
-    width: 250px;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-left: auto;
+    width: 180px;
 }
 .home-div-intro svg {
     border-radius: 100%;
-    border: 2.5px solid #F4E2DE;
+    border: 2.5px solid #bbbaba;;
     padding: 8px;
 }
-
 .home-div-intro svg:hover {
-    border-color: #03A696;
-    box-shadow: 0.2px 1px 10px  rgba(4, 223, 201, 0.845);
+    border-color: #03c2af;
+    box-shadow: 0.2px 1px 10px rgba(4, 223, 201, 0.845);
     transition: 0.7s;
 }
+
 
 
