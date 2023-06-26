@@ -1,0 +1,68 @@
+.skills {
+    height: calc(100vh - 50px);
+    margin: 50px auto 0;
+    width: 80%;
+}
+.skills h2 {
+    color: #eaa352;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    text-align: start;
+}
+.skills h3 {
+    color: #bbbaba;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+    padding: 0.3rem;
+    text-align: start;
+}
+.skills-ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    text-align: center;
+    width: 100%;
+}
+.skills-ul li {
+    align-items: center;
+    border: 2px solid rgba(2, 19, 26, 0.478);
+    border-radius: 1.2rem;
+    box-shadow: 0px 0px 5px 0px rgba(4, 223, 201, 0.845);
+    display: flex;
+    height: 8rem;
+    justify-content: space-around;
+    margin: 2rem 2rem 3rem;
+    padding: 0.7rem;
+    width: 14.5%;
+}
+.skills-ul li:nth-child(5n) {
+    margin-right: 0;
+}
+.skills-ul li:nth-child(5n+1) {
+    margin-left: 0;
+}
+.skills-ul li:hover {
+    border-color: #03c2af;
+    box-shadow: 0px 0px 10px 1px  rgba(4, 223, 201, 0.845);
+    transition: 0.7s;
+}
+.skills-ul div {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.skills-ul svg {
+    width: 40%;
+}
+.skills-ul h2 {
+    color: #f3f0f0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    width: 40%;
+}

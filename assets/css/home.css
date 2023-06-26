@@ -1,0 +1,90 @@
+.home {
+    background-image: url(/assets/img/pexels-neo-2653362.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-div-main {
+    background-image: linear-gradient(to bottom right, rgb(11, 17, 24), rgba(2, 19, 26, 0.67), rgb(11, 17, 24));
+    background-size: cover;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(6, 6, 6, 0.886);
+    display: flex;
+    height: calc(100vh - 5rem);
+    justify-content: space-around;
+}
+.home-div-photo {
+    justify-content: space-between;
+    margin-left: 10rem;
+    width: 50%;
+}
+.home-div-photo div {
+    align-items: center;
+    background-image: linear-gradient( #d48c22, #bb7936, #eb8919, #d07e2c, #e08805);
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.298);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 35rem;
+    margin: 0 auto;
+    width: 35rem;
+}
+.home-div-photo img {
+    border-radius: 100%;
+    width: 33rem;
+}
+.home-div-intro {
+    height: 40vh;
+    margin-right: 5rem;
+    padding: 1rem;
+    width: 50%;
+}
+.home-div-intro h1 {
+    color: aliceblue;
+    font-size: 4rem;;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    padding: 0.5rem;
+    text-align: start;
+}
+.home-div-intro h2 {
+    color: #bbbaba;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    padding: 0.2rem;
+    text-align: start;
+}
+.home-div-intro p {
+    color: aliceblue;
+    font-size: 1.2rem;
+    /*font-style: italic;*/
+    font-weight: 200;
+    margin-bottom: 3.5rem;
+    text-align: start;
+    padding: 0.2rem;
+    width: 36rem;
+}
+.div-social-media {
+    align-items: center;
+    width: 36rem;
+}
+.home-div-intro ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-left: auto;
+    width: 180px;
+}
+.home-div-intro svg {
+    border-radius: 100%;
+    border: 2.5px solid #bbbaba;;
+    padding: 8px;
+}
+.home-div-intro svg:hover {
+    border-color: #03c2af;
+    box-shadow: 0.2px 1px 10px rgba(4, 223, 201, 0.845);
+    transition: 0.7s;
+}
