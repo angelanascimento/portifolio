@@ -5,10 +5,10 @@
     background-size: cover;
 }
 .home-div-main {
-    background-image: linear-gradient(to bottom right, rgb(11, 17, 24), rgba(2, 19, 26, 0.67), rgb(11, 17, 24));
+    background-image: linear-gradient(to bottom right, rgb(11, 17, 24), rgba(2, 19, 26, 0.845), rgb(11, 17, 24));
     background-size: cover;
     align-items: center;
-    box-shadow: 0px 0px 10px 0px rgba(6, 6, 6, 0.886);
+    box-shadow: 0px 0px 10px 10px rgb(11, 17, 24);
     display: flex;
     height: calc(100vh - 5rem);
     justify-content: space-around;
@@ -20,9 +20,10 @@
 }
 .home-div-photo div {
     align-items: center;
-    background-image: linear-gradient( #d48c22, #bb7936, #eb8919, #d07e2c, #e08805);
+    /*animation: rotate 1.5s linear infinite;*/
+    background-image: linear-gradient(  #bb7936, #eb8919, #eaa352, #bb7936);
     border-radius: 100%;
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.298);
+    box-shadow: 0px 0 20px 0 rgba(0, 0, 0, 0.298);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -30,8 +31,17 @@
     margin: 0 auto;
     width: 35rem;
 }
+/*@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}*/
 .home-div-photo img {
     border-radius: 100%;
+    border: 10px solid rgba(1, 14, 25);
     width: 33rem;
 }
 .home-div-intro {
@@ -76,15 +86,17 @@
     justify-content: space-between;
     margin-right: 0;
     margin-left: auto;
-    width: 180px;
+    width: 150px;
 }
 .home-div-intro svg {
     border-radius: 100%;
-    border: 2.5px solid #bbbaba;;
+    border: 2.5px solid #bbbaba;
     padding: 8px;
 }
 .home-div-intro svg:hover {
     border-color: #03c2af;
     box-shadow: 0.2px 1px 10px rgba(4, 223, 201, 0.845);
+    transform: scale(1.1);
     transition: 0.7s;
+    
 }
