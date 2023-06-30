@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="/assets/css/skills.css">
     <link rel="stylesheet" href="/assets/css/projects.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +33,6 @@
     </header>
     <main>
         <section class="home">
-            
             <div class="home-div-main">
                 <div class="home-div-photo">
                     <div><img src="assets/img/pexels-marlon-alves-17054122.jpg" alt="recorte de foto (Foto de Marlon Alves)"></div> 
@@ -225,7 +225,36 @@
                 </li>
             </ul>
         </section>
-        <section class="contacts"></section>
+        <section class="contact">
+            <div class="contact-div">
+                <div class="contact-div-main">
+                    <h2>Contato</h2>
+                    <h3>Vamos conversar?</h3>
+                    <div>
+                    <div class="contact-div-p"></div>
+                        <form class="contact-form" action="">
+                            <div>
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="email@dominio.com" class="email" required>
+                            </div>
+                            <div>
+                                <label for="subject">Assunto</label>
+                                <input type="text" id="subject" required>
+                            </div>
+                            <div>
+                                <label for="message">Mensagem</label>
+                                <textarea name="" id="message" cols="50" rows="10" required></textarea>
+                            </div>
+                            <input type="submit" value="enviar" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer></footer>
 
