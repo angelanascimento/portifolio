@@ -5,7 +5,8 @@
     background-size: cover;
 }
 .home-div-main {
-    background-image: linear-gradient(to bottom right, rgb(11, 17, 24), rgba(2, 19, 26, 0.845), rgb(11, 17, 24));
+    /*background-image: linear-gradient(to bottom right, rgba(11, 17, 24, 0.064), rgba(2, 19, 26, 0.845), rgb(11, 17, 24));*/
+    background-image: linear-gradient(to bottom right, rgba(11, 24, 14, 0), rgba(2, 19, 26, 0.916), rgba(11, 17, 24, 0.982));
     background-size: cover;
     align-items: center;
     box-shadow: 0px 0px 10px 10px rgb(11, 17, 24);
@@ -92,11 +93,12 @@
     border-radius: 100%;
     border: 2.5px solid #bbbaba;
     padding: 8px;
+    transition: 0.7s;
 }
 .home-div-intro svg:hover {
     border-color: #03c2af;
     box-shadow: 0.2px 1px 10px rgba(4, 223, 201, 0.845);
     transform: scale(1.1);
-    transition: 0.7s;
+    
     
 }
