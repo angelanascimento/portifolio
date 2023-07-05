@@ -1,7 +1,5 @@
 .skills {
-    border-bottom: 1px solid #303030c8;
-    height: calc(100vh - 4.375rem);
-    margin: 4.375rem auto 0;
+    margin: 4.375rem auto 8rem;
     width: 80%;
 }
 .skills h2 {

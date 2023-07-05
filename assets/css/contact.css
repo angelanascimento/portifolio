@@ -8,9 +8,13 @@
     background-image: linear-gradient(to top right, rgba(11, 17, 24, 0.713), rgba(2, 19, 26, 0.976), rgb(11, 17, 24));
 }
 .contact-div-main {
-    height: calc(100vh - 4.375rem);
+    height: calc(100vh - 10.375rem);
     margin: 4.375rem auto 0;
     width: 80%;
+}
+.contact-div-main div {
+    display: flex;
+    justify-content: space-between;
 }
 .contact-div-main h2 {
     color: #eaa352;
@@ -33,6 +37,11 @@
 }
 .contact-div-p {
     width: 50%;
+}
+.contact-div-p div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .contact-form {
     border: 2px solid rgba(2, 19, 26, 0.478);
