@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="/assets/css/skills.css">
-    <link rel="stylesheet" href="/assets/css/projects.css">
-    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +36,7 @@
         <section class="home">
             <div class="home-div-main">
                 <div class="home-div-photo">
-                    <div><img src="assets/img/pexels-marlon-alves-17054122.jpg" alt="recorte de foto (Foto de Marlon Alves)"></div> 
+                    <div><img src="/assets/img/pexels-marlon-alves-17054122.jpg" alt="recorte de foto (Foto de Marlon Alves)"></div> 
                 </div>
                 <div class="home-div-intro">
                     <h1>Angela Araújo</h1>
@@ -66,6 +67,7 @@
                 </div>
             </div>
         </section>
+        <hr>
         <section class="skills">
             <h2>Habilidades</h2>
             <h3>Conhecimento nas tecnologias:</h3>
@@ -142,6 +144,7 @@
                 </div></li>
             </ul>
         </section>
+        <hr>
         <section class="projects">
             <h2>Projetos</h2>
             <h3>Meus projetos e contribuições:</h3>
@@ -225,13 +228,18 @@
                 </li>
             </ul>
         </section>
+        <hr>
         <section class="contact">
             <div class="contact-div">
                 <div class="contact-div-main">
-                    <h2>Contato</h2>
-                    <h3>Vamos conversar?</h3>
                     <div>
-                    <div class="contact-div-p"></div>
+                        <div class="contact-div-p">
+                            <div>
+                                <h2>Contato</h2>
+                                <h3>Vamos conversar?</h3>
+                            </div>
+                            
+                        </div>
                         <form class="contact-form" action="">
                             <div>
                                 <label for="name">Nome</label>
@@ -249,15 +257,45 @@
                                 <label for="message">Mensagem</label>
                                 <textarea name="" id="message" cols="50" rows="10" required></textarea>
                             </div>
-                            <input type="submit" value="enviar" id="submit">
+                            <input type="submit" value="enviar" id="submit">    
                         </form>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
-
-    <script src="/assets/javascript/index.js"></script>
+    <footer>
+            <div class="footer-div-technologies">
+                <p >
+                    Developed by @angelaaraujo using
+                </p>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g transform=""><g fill="#f3f0f0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M45.27344,2.32422c-0.1875,-0.20703 -0.45703,-0.32422 -0.73828,-0.32422h-39.07031c-0.28125,0 -0.55078,0.11719 -0.73828,0.32422c-0.19141,0.20703 -0.28516,0.48438 -0.25781,0.76563l3.51953,39.42578c0.03516,0.41406 0.32422,0.75781 0.72266,0.875l16.01172,4.57031c0.08594,0.02734 0.17969,0.03906 0.27344,0.03906c0.09375,0 0.18359,-0.01172 0.27344,-0.03906l16.02344,-4.57031c0.39844,-0.11719 0.68359,-0.46094 0.72266,-0.875l3.51563,-39.42578c0.02734,-0.28125 -0.06641,-0.55859 -0.25781,-0.76562zM36.84766,15.91797h-18.8125l0.44922,5.08984h17.91016l-1.34375,15.04297l-10.05859,3.03906l-0.09766,-0.03125l-9.94141,-3.01172l-0.54297,-6.12891h4.87109l0.21094,2.37891l5.55859,1.16406l5.45703,-1.16406l0.58203,-6.4375h-17.04297l-1.32422,-14.80469h24.55859z"></path></g></g></g>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="33" height="33" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g transform="translate(-19.2,-19.2) scale(1.15,1.15)"><g fill="#f3f0f0" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M42,6l-3,34l-14,4l-14,-4l-3,-34zM16.80078,28h4l0.09766,2.5l4.10156,1.39844l4.10156,-1.39844l0.29688,-4.5h-8.79687l-0.20312,-4h9.20313l0.29688,-4h-13.79687l-0.30078,-4h18.30078l-0.5,8l-0.70312,11.5l-7.89844,2.60156l-7.89844,-2.60156z"></path></g></g></g>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
+                        style="fill:#000000;">
+                        <g fill="#f3f0f0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M45.274,2.325c-0.19,-0.207 -0.457,-0.325 -0.738,-0.325h-39.072c-0.281,0 -0.548,0.118 -0.738,0.325c-0.19,0.207 -0.283,0.485 -0.258,0.764l3.52,39.427c0.037,0.412 0.324,0.759 0.722,0.873l16.01,4.573c0.089,0.025 0.182,0.038 0.274,0.038c0.092,0 0.185,-0.013 0.274,-0.038l16.024,-4.573c0.398,-0.114 0.685,-0.461 0.722,-0.873l3.518,-39.427c0.025,-0.279 -0.069,-0.557 -0.258,-0.764zM12,29.004l7,1.942v-19.946h4v26l-11,-3.051zM38.054,22l-1.054,12.25l-10,2.75v-4.601l6.75,-1.855l0.25,-3.75l-7,1.206v-17h12l-0.345,4h-7.655v8z"></path></g></g>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-div-copyright">
+                <p>
+                    ©2023 All rigth reserved.
+                </p>
+            </div>
+    </footer>
+    <!--<script src="/assets/javascript/index.js"></script>-->
 </body>
 </html>

@@ -1,0 +1,15 @@
+.footer-div-technologies ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 120px;
+}
+.footer-div-technologies li {
+    padding: 0.5rem;
+}
+.footer-div-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
